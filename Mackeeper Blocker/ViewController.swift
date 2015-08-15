@@ -28,7 +28,7 @@ class ViewController: NSViewController {
     // MARK: Actions
     
     @IBAction func blockMackeeper(sender: AnyObject) {
-        
+        Blocker.blockMackeeper()
     }
 
 }
