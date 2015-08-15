@@ -14,6 +14,7 @@
 		0203E1B31B7D302400FA5316 /* Mackeeper_BlockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0203E1B21B7D302400FA5316 /* Mackeeper_BlockerTests.swift */; };
 		0203E1BF1B7D306800FA5316 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0203E1BD1B7D306800FA5316 /* README.md */; };
 		0203E1C51B7D3D4F00FA5316 /* mackeeper_blocker.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0203E1C41B7D3D4F00FA5316 /* mackeeper_blocker.sh */; };
+		027DD60B1B7F7CB3005F7F07 /* Blocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DD60A1B7F7CB3005F7F07 /* Blocker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		0203E1B21B7D302400FA5316 /* Mackeeper_BlockerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mackeeper_BlockerTests.swift; sourceTree = "<group>"; };
 		0203E1BD1B7D306800FA5316 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0203E1C41B7D3D4F00FA5316 /* mackeeper_blocker.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = mackeeper_blocker.sh; sourceTree = "<group>"; };
+		027DD60A1B7F7CB3005F7F07 /* Blocker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blocker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				0203E19F1B7D302400FA5316 /* AppDelegate.swift */,
 				0203E1A11B7D302400FA5316 /* ViewController.swift */,
+				027DD60A1B7F7CB3005F7F07 /* Blocker.swift */,
 				0203E1A31B7D302400FA5316 /* Images.xcassets */,
 				0203E1A51B7D302400FA5316 /* Main.storyboard */,
 				0203E19D1B7D302400FA5316 /* Supporting Files */,
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0203E1BF1B7D306800FA5316 /* README.md in Sources */,
+				027DD60B1B7F7CB3005F7F07 /* Blocker.swift in Sources */,
 				0203E1A21B7D302400FA5316 /* ViewController.swift in Sources */,
 				0203E1A01B7D302400FA5316 /* AppDelegate.swift in Sources */,
 			);
